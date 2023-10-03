@@ -11,6 +11,15 @@ public class GameSceneEnvironmentManager : MonoBehaviour
     private DateTime startTime;
     private bool isRunning = true;
 
+    void Awake()
+    {
+        if (!Application.isMobilePlatform)
+        {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+    }
+
     void Start()
     {
         startTime = DateTime.Now;

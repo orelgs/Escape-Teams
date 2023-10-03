@@ -36,6 +36,12 @@ public class PhotonLauncher : MonoBehaviourPunCallbacks
     private void Awake()
     {
         Instance = this;
+
+        if (!Application.isMobilePlatform)
+        {
+            UnityEngine.Cursor.visible = true;
+            UnityEngine.Cursor.lockState = CursorLockMode.None;
+        }
     }
 
     private void Start()

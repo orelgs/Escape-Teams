@@ -8,6 +8,15 @@ public class ResultsSceneManager : MonoBehaviour, IPunInstantiateMagicCallback
 {
     [SerializeField] private GameEvent onTeamWinAnnounced;
 
+    private void Awake()
+    {
+        if (!Application.isMobilePlatform)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+    }
+
     public void OnPhotonInstantiate(PhotonMessageInfo info)
     {
         string winningTeam = (string)info.photonView.InstantiationData[0];
