@@ -1,4 +1,4 @@
-# Escape-Teams
+# Escape Teams
 This is Escape Teams!  
 A Team vs. Team Escape Game!  
   
