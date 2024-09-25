@@ -30,3 +30,7 @@ Will your team be the first to master the challenges and secure victory?
 
 # Game Poster
 ![Escape Teams Project Poster](https://github.com/orelgs/Escape-Teams/assets/100224882/d6c7749f-ed2a-480a-82ef-69d984253973)
+
+# Gameplay
+https://github.com/user-attachments/assets/a5243441-a101-46a7-9aad-f5783cf2923f
+
